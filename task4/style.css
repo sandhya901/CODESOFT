@@ -1,0 +1,136 @@
+body{
+    background-image: url('https://www.bbvapivot.com/wp-content/uploads/2021/05/portada-reporting.jpg');
+    font-family: 'Times New Roman', Times, serif;
+}/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+}
+
+nav .logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav .caption {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 8px 12px;
+    color: #000;
+    font-weight: bold;
+}
+
+nav div a.btn {
+    margin-left: 10px;
+}
+
+/* Main Body */
+.body {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Form Section */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav div a.btn {
+        margin: 5px 0;
+    }
+
+    .body {
+        padding: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container select {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    nav .caption h2 {
+        font-size: 1.5rem;
+    }
+
+    nav .caption p {
+        font-size: 1rem;
+    }
+
+    .body h2 {
+        font-size: 1.5rem;
+    }
+
+    .body p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+}
+
+
+

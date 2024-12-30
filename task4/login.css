@@ -1,0 +1,15 @@
+
+.heading h2{
+    color: black;
+}
+.btnbtn-primary{
+    
+    background-color: rgb(230, 154, 14);
+    color: white;
+    border-radius: 40px;
+    width: 200px;
+
+}
+span{
+    color: orange;
+}
